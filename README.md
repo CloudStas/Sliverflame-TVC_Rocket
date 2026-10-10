@@ -1,10 +1,19 @@
-# Propulsively Landing Model Rocket Using TVC
+# Sliverflame, Propulsively Landing Model Rocket Using TVC
 
 ## What is this?
-This is a project inspired by BPS.Space to attempt to land a model rocket using hobby motors like the Estes F15 rocket motors, by using multiple of these motors with throttle arms I theoretically can land it like a Falcon 9, on it's landing legs.
+Sliverflame is an active-stability model rocket designed to achieve vertical, propulsive landings using standard hobby rocket motors. This project is inspired by BPS space, when he landed his model rocket, Scout F. Additionally, I am doing this for stardance(stardance.hackclub.com/).
 
 ## How does it work?
-The rocket uses a TVC mount which holds 1 motor inside and also partially another motor that is sticking out the bottom that can easily fall out not the top one inside the tube fully though. The landing motor is inside the tube and the ascent motor is partially inside the tube roughly 5mm in. When the ascent motor burns out it falls because of gravity since its not pushing the rocket anymore. When the rocket is going up and landing it uses TVC(Thrust Vector Control) to constantly make sure that the rocket is stable, and use a reaction wheel to stabilize the rocket's roll
+1. Dual-Motors config, The rocket engine mount holds two motors sequentially. The upper landing motor is securely housed completely inside the body tube. The lower ascent motor sits partially inserted (~5mm) into the bottom of the tube.
+2. Thrust based seperation, Once the ascent motor burns out, the top landing motor is ignited and it pushes the ascent motor in a different direction and then immediately the rocket stabilizes.
 
 ## Progress
-So far I have gotten the CAD Design for the TVC mount which is listed in the files but I am working on the flight computer and the reaction wheel and legs.
+I have finished design for all of the parts I just need to also 3D print them and I also with the budget of about $600 I can also laser cut landing legs. I am using PETG for the TVC gimbal and for the rest I am using regular PLA.
+
+## Hardware
+Look into the files for the parts in this directory or you can check it out in onshape: https://cad.onshape.com/documents/642eb1595bbfbb88e3413de9/w/294c2c178315e1ad00baf07d/e/72f61137f22d9a471da72dad.
+
+## Software
+software/ for all the software on the rocket. This rocket will be using Arduino IDE and probably something like simulink for simulating the rocket landing. More info will come when I finish the software.
+
+You can use this project however you'd like.
