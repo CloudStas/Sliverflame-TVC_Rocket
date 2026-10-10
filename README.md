@@ -16,4 +16,7 @@ Look into the files for the parts in this directory or you can check it out in o
 ## Software
 software/ for all the software on the rocket. This rocket will be using Arduino IDE and probably something like simulink for simulating the rocket landing. More info will come when I finish the software.
 
+## Safety Stuff
+Since the rocket motor inside the tube can melt the TVC_Tube I am going to add some kraft paper inside so even if the exhaust touches inside the tube it will actually burn the paper and the throttle arms are made from Steel 1008 so I think its good.
+
 You can use this project however you'd like.
