@@ -13,6 +13,8 @@ I have finished design for all of the parts I just need to also 3D print them an
 ## Hardware
 Look into the files for the parts in this directory or you can check it out in onshape: https://cad.onshape.com/documents/642eb1595bbfbb88e3413de9/w/294c2c178315e1ad00baf07d/e/72f61137f22d9a471da72dad.
 
+Here is a shorted BOM list you can also check out the longer one in Rocket_BOM.xlsx:
+
 | **Item / Category** | **Estimated Cost** | **Source** |
 | :--- | :--- | :--- |
 | **Estes F15 Rocket Motors (8-pack)** | $110.00 | some hobby store |
