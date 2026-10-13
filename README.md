@@ -13,6 +13,18 @@ I have finished design for all of the parts I just need to also 3D print them an
 ## Hardware
 Look into the files for the parts in this directory or you can check it out in onshape: https://cad.onshape.com/documents/642eb1595bbfbb88e3413de9/w/294c2c178315e1ad00baf07d/e/72f61137f22d9a471da72dad.
 
+| **Item / Category** | **Estimated Cost** | **Source** |
+| :--- | :--- | :--- |
+| **Estes F15 Rocket Motors (8-pack)** | $110.00 | some hobby store |
+| **SPARKHOBBY ES3352 Servos** | $48.28 | Amazon |
+| **Custom Laser Cut Throttle Arms** | $32.66 | SendCutSend |
+| **HOOVO 2S Shorty Lipo Batteries (2-pack)** | $34.43 | Amazon |
+| **UHT Carbon Fiber Rods** | $25.69 | Amazon |
+| **Avionics & Electronics** (ESP32-S3, MPU6050, BMP280, MOSFETs, UBEC) | $81.32 | Amazon |
+| **Hardware & Miscellaneous** (Filament, Connectors, Wires, Fuses, Bag) | $105.90 | Amazon |
+| **Structural Consumables** (Nichrome wire, Kraft paper, Rods, Glue, Bands) | $40.44 | Amazon |
+| **Total** | **$538.27** | |
+
 ## Software
 software/ for all the software on the rocket. This rocket will be using Arduino IDE and probably something like simulink for simulating the rocket landing. More info will come when I finish the software.
 
