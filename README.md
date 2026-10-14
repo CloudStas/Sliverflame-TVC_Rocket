@@ -1,8 +1,8 @@
 # Sliverflame, Propulsively Landing Model Rocket Using TVC
+<img width="1200" height="400" alt="image" src="https://github.com/user-attachments/assets/36afb56f-49d5-41ad-922f-0e3160d4698b" />
 
 ## What is this?
 Sliverflame is an active-stability model rocket designed to achieve vertical, propulsive landings using standard hobby rocket motors. This project is inspired by BPS space, when he landed his model rocket, Scout F. Additionally, I am doing this for stardance(stardance.hackclub.com/).
-<img width="1200" height="400" alt="image" src="https://github.com/user-attachments/assets/36afb56f-49d5-41ad-922f-0e3160d4698b" />
 
 
 ## How does it work?
