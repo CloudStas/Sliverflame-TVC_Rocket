@@ -29,7 +29,7 @@ Here is a shorted BOM list you can also check out the longer one in Rocket_BOM.c
 | **HOOVO 2S Shorty Lipo Batteries (2-pack)** | $34.43 | Amazon |
 | **UHT Carbon Fiber Rods** | $25.69 | Amazon |
 | **Avionics & Electronics** (ESP32-S3, MPU6050, BMP280, MOSFETs, UBEC) | $81.32 | Amazon |
-| **Hardware & Miscellaneous** (Filament, Connectors, Wires, Fuses, Bag) | $105.90 | Amazon |
+| **Hardware & Miscellaneous** (Filament, Connectors, Wires, Fuses, Bag) | $115.90 | Amazon |
 | **Structural Consumables** (Nichrome wire, Kraft paper, Rods, Glue, Bands) | $40.44 | Amazon |
 | **Total** | **$538.27** | |
 
