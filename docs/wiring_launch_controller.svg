@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1150 720" width="1150" height="720" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <style>
+    .blk { fill: #f6f7f9; stroke: #333; stroke-width: 1.5; }
+    .esp { fill: #e8f0fb; stroke: #1f4e8c; stroke-width: 2; }
+    .res { fill: #fff; stroke: #333; stroke-width: 1.2; }
+    .t  { font-size: 14px; fill: #111; }
+    .tb { font-size: 15px; fill: #111; font-weight: 700; }
+    .s  { font-size: 12px; fill: #333; }
+    .xs { font-size: 10.5px; fill: #333; }
+    .pin { font-size: 12px; fill: #1f4e8c; }
+    .usb { stroke: #ff7f0e; stroke-width: 4; fill: none; }
+    .sig { stroke: #1f77b4; stroke-width: 2; fill: none; }
+    .gnd { stroke: #000; stroke-width: 2.5; fill: none; }
+    .dot { fill: #000; }
+  </style>
+  <defs>
+    <!-- push button: contacts at x=0 and x=50 -->
+    <g id="btn">
+      <circle cx="0" cy="0" r="3.5" fill="#fff" stroke="#000" stroke-width="1.5"/>
+      <circle cx="50" cy="0" r="3.5" fill="#fff" stroke="#000" stroke-width="1.5"/>
+      <line x1="-4" y1="-12" x2="54" y2="-12" stroke="#000" stroke-width="2"/>
+      <line x1="25" y1="-12" x2="25" y2="-22" stroke="#000" stroke-width="2"/>
+      <line x1="17" y1="-22" x2="33" y2="-22" stroke="#000" stroke-width="2"/>
+    </g>
+  </defs>
+
+  <rect x="0" y="0" width="1150" height="720" fill="#ffffff"/>
+  <text x="30" y="38" style="font-size:22px;font-weight:700;fill:#111">Sliverflame: launch controller wiring (ESP32 #2 on a breadboard)</text>
+  <text x="30" y="58" class="s">Talks to the rocket over ESP-NOW (no router needed). Powered by any USB power bank through the board's USB port.</text>
+
+  <!-- wireless link -->
+  <path d="M460 92 V76 H900" stroke="#888" stroke-width="2" stroke-dasharray="7 5" fill="none"/>
+  <polygon points="900,70 912,76 900,82" fill="#888"/>
+  <text x="918" y="80" class="s">ESP-NOW 2.4 GHz ↔ ESP32 #1 (rocket)</text>
+
+  <!-- power bank -->
+  <rect x="30" y="120" width="170" height="90" rx="10" class="blk"/>
+  <text x="115" y="152" text-anchor="middle" class="tb">USB power bank</text>
+  <text x="115" y="172" text-anchor="middle" class="s">5 V out</text>
+  <text x="115" y="190" text-anchor="middle" class="xs">(the one you already have)</text>
+  <path d="M200 165 H330" class="usb"/>
+  <text x="265" y="155" text-anchor="middle" class="xs">USB cable</text>
+  <text x="265" y="185" text-anchor="middle" class="xs">(same as for flashing)</text>
+
+  <!-- ESP32 -->
+  <rect x="330" y="92" width="260" height="420" rx="8" class="esp"/>
+  <text x="345" y="169" class="pin">USB port</text>
+  <text x="460" y="250" text-anchor="middle" class="tb">ESP32 #2</text>
+  <text x="460" y="270" text-anchor="middle" class="s">launch controller</text>
+  <text x="460" y="288" text-anchor="middle" class="s">ESP-WROOM-32 DevKit</text>
+  <g class="pin" text-anchor="end">
+    <text x="580" y="154">GPIO32</text>
+    <text x="580" y="214">GPIO33</text>
+    <text x="580" y="274">GPIO25</text>
+    <text x="580" y="354">GPIO26</text>
+    <text x="580" y="414">GPIO27</text>
+    <text x="580" y="474">GPIO13</text>
+  </g>
+  <text x="460" y="505" text-anchor="middle" class="pin">GND</text>
+  <path d="M460 512 V620" class="gnd"/>
+
+  <!-- ground rail (breadboard - rail) -->
+  <path d="M120 620 H1080 V150" class="gnd"/>
+  <circle cx="460" cy="620" r="4.5" class="dot"/>
+  <text x="125" y="645" class="s">breadboard “−” rail = GND</text>
+
+  <!-- buttons -->
+  <path d="M590 150 H720" class="sig"/>
+  <use xlink:href="#btn" href="#btn" x="720" y="150"/>
+  <path d="M770 150 H1080" class="gnd"/><circle cx="1080" cy="150" r="4.5" class="dot"/>
+  <text x="745" y="118" text-anchor="middle" class="t">ARM</text>
+
+  <path d="M590 210 H720" class="sig"/>
+  <use xlink:href="#btn" href="#btn" x="720" y="210"/>
+  <path d="M770 210 H1080" class="gnd"/><circle cx="1080" cy="210" r="4.5" class="dot"/>
+  <text x="745" y="180" text-anchor="middle" class="t">LAUNCH</text>
+  <text x="800" y="203" class="xs">fires only while ARM is also held</text>
+
+  <path d="M590 270 H720" class="sig"/>
+  <use xlink:href="#btn" href="#btn" x="720" y="270"/>
+  <path d="M770 270 H1080" class="gnd"/><circle cx="1080" cy="270" r="4.5" class="dot"/>
+  <text x="745" y="240" text-anchor="middle" class="t">DISARM / ABORT</text>
+
+  <!-- LEDs: GPIO -> resistor -> LED anode ; cathode -> GND -->
+  <g>
+    <path d="M590 350 H680 M740 350 H800 M832 350 H1080" class="sig"/>
+    <rect x="680" y="343" width="60" height="14" class="res"/><text x="710" y="338" text-anchor="middle" class="xs">220–330 Ω</text>
+    <polygon points="800,336 800,364 828,350" fill="#2ca02c" stroke="#000"/>
+    <line x1="830" y1="336" x2="830" y2="364" stroke="#000" stroke-width="2"/>
+    <circle cx="1080" cy="350" r="4.5" class="dot"/>
+    <text x="845" y="340" class="s">GREEN: link to rocket OK</text>
+  </g>
+  <g>
+    <path d="M590 410 H680 M740 410 H800 M832 410 H1080" class="sig"/>
+    <rect x="680" y="403" width="60" height="14" class="res"/><text x="710" y="398" text-anchor="middle" class="xs">220–330 Ω</text>
+    <polygon points="800,396 800,424 828,410" fill="#f2c200" stroke="#000"/>
+    <line x1="830" y1="396" x2="830" y2="424" stroke="#000" stroke-width="2"/>
+    <circle cx="1080" cy="410" r="4.5" class="dot"/>
+    <text x="845" y="400" class="s">YELLOW: igniter continuity OK</text>
+  </g>
+  <g>
+    <path d="M590 470 H680 M740 470 H800 M832 470 H1080" class="sig"/>
+    <rect x="680" y="463" width="60" height="14" class="res"/><text x="710" y="458" text-anchor="middle" class="xs">220–330 Ω</text>
+    <polygon points="800,456 800,484 828,470" fill="#d62728" stroke="#000"/>
+    <line x1="830" y1="456" x2="830" y2="484" stroke="#000" stroke-width="2"/>
+    <circle cx="1080" cy="470" r="4.5" class="dot"/>
+    <text x="845" y="460" class="s">RED: rocket ARMED</text>
+  </g>
+  <text x="640" y="535" class="xs">long LED leg (anode) → resistor side · short leg (cathode, flat edge) → GND</text>
+
+  <!-- notes -->
+  <rect x="30" y="250" width="270" height="270" rx="8" fill="#fbfbfb" stroke="#999"/>
+  <text x="45" y="274" class="tb">Notes</text>
+  <g class="s">
+    <text x="45" y="298">• Buttons use INPUT_PULLUP:</text>
+    <text x="45" y="314">  pressed = LOW, released = HIGH.</text>
+    <text x="45" y="336">• No resistors needed on buttons.</text>
+    <text x="45" y="358">• Every LED needs its own resistor,</text>
+    <text x="45" y="374">  otherwise it can burn the GPIO.</text>
+    <text x="45" y="396">• Some power banks turn off when</text>
+    <text x="45" y="412">  the load is tiny (&lt;~100 mA). If it</text>
+    <text x="45" y="428">  shuts off, use one with a</text>
+    <text x="45" y="444">  low-current / always-on mode.</text>
+    <text x="45" y="466">• 30-pin DevKit fits one breadboard</text>
+    <text x="45" y="482">  with 1 free row per side; 38-pin may</text>
+    <text x="45" y="498">  need two breadboards side by side.</text>
+  </g>
+
+  <!-- legend -->
+  <g transform="translate(30,675)">
+    <path d="M0 0 H40" class="usb"/><text x="48" y="4" class="s">USB 5 V</text>
+    <path d="M150 0 H190" class="sig"/><text x="198" y="4" class="s">GPIO signal</text>
+    <path d="M320 0 H360" class="gnd"/><text x="368" y="4" class="s">GND</text>
+    <circle cx="450" cy="0" r="4.5" class="dot"/><text x="462" y="4" class="s">wires joined</text>
+  </g>
+</svg>
