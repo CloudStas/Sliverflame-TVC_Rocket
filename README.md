@@ -28,10 +28,10 @@ Here is a shorter BOM list, you can also check out the full one in [BOM.csv](BOM
 | **Custom Laser Cut Throttle Arms** (Steel 1008) | $32.66 | SendCutSend |
 | **HOOVO 2S Shorty Lipo Batteries (2-pack)** | $34.43 | Amazon |
 | **UHT Carbon Fiber Rods** | $25.69 | Amazon |
-| **Avionics & Electronics** (ESP32 2-pack, MPU6050, BMP280, MOSFET module, UBEC + BEC, screw-terminal board) | $86.82 | Amazon |
-| **Hardware & Miscellaneous** (Filament, lever connectors, Wires, Fuses, Switches, Resistors, LiPo bag) | $144.02 | Amazon |
+| **Avionics & Electronics** (ESP32 2-pack, MPU6050, BMP280, MOSFET module, UBEC + BEC, screw-terminal board) | $83.82 | Amazon |
+| **Hardware & Miscellaneous** (Filament, lever connectors, Wires, Fuses, Switches, Resistors, LiPo bag) | $140.52 | Amazon |
 | **Structural Consumables** (Nichrome wire, Kraft paper, Rods, Glue, Bands) | $37.45 | Amazon |
-| **Total** | **$409.35** | |
+| **Total** | **$402.85** | |
 
 Not in the BOM because I already have them: the Estes F15 motors, the LiPo charger, a USB power bank, a breadboard, LEDs and jumper wires.
 
