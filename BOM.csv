@@ -33,7 +33,7 @@ Item,Price,Store,Link,Notes
 "WG-026 10-Piece Test Lead Set with Alligator Clips, 22 AWG, 20.5-Inch",$5.99,Amazon.com,https://www.amazon.com/gp/product/B06XX25HFX,
 "Total Amazon parts cost",$369.95,,,
 "Total Amazon parts with delivery for me",$417.43,,,
-"Throttle arms laser cut (Steel 1008, 1.5 mm)",$32.66,SendCutSend.com,Production/Laser_Cutting/Throttle_Arm_formed.step,"Qty 2, mild steel .059"", one 90 deg bend. Flat DXF in Production/Laser_Cutting"
+"Throttle arms laser cut (Steel 1008, 1.5 mm)",$32.66,SendCutSend.com,CAD/Throttle_Arm_formed.step,"Qty 2, mild steel .059"", one 90 deg bend. Flat DXF: CAD/Throttle_Arm_flat.dxf"
 ,,,,
 Total:,$450.09,,,
 ,,,,
