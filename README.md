@@ -22,16 +22,20 @@ Also I didn't go with a PCB because it was like $308 and it is way cheaper to ju
 
 Here is a shorter BOM list, you can also check out the full one in [BOM.csv](BOM.csv):
 
+
 | **Item / Category** | **Cost** | **Source** |
 | :--- | :--- | :--- |
 | **SPARKHOBBY ES3352 Servos** (×4: TVC pitch, TVC yaw, 2× throttle) | $48.28 | Amazon |
-| **Custom Laser Cut Throttle Arms** (Steel 1008) | $32.66 | SendCutSend |
-| **HOOVO 2S Shorty Lipo Batteries (2-pack)** | $34.43 | Amazon |
-| **UHT Carbon Fiber Rods** | $25.69 | Amazon |
-| **Avionics & Electronics** (ESP32 2-pack, MPU6050, BMP280, MOSFET module, UBEC + BEC, screw-terminal board) | $83.82 | Amazon |
-| **Hardware & Miscellaneous** (Filament, lever connectors, Wires, Fuses, Switches, Resistors, LiPo bag) | $140.52 | Amazon |
-| **Structural Consumables** (Nichrome wire, Kraft paper, Rods, Glue, Bands) | $37.45 | Amazon |
-| **Total** | **$402.85** | |
+| **Custom Laser Cut Throttle Arms** (Steel 1008, 1.5 mm) | $32.66 | SendCutSend |
+| **OVONIC 7.4V 2S 2200mAh LiPo Batteries** (2-pack) | $29.99 | Amazon |
+| **UHT Carbon Fiber Rods** (4×500 mm) | $25.69 | Amazon |
+| **Avionics & Electronics** (ESP32 2-pack, breakout board, MPU6050, BMP280, MOSFET module, 8A UBEC + 3A BEC) | $84.02 | Amazon |
+| **Hardware & Miscellaneous** (PETG & PLA filament, lever connectors, wires, pushrods, fuses, switches, buttons, resistors, standoffs, LiPo bag, zip ties) | $140.42 | Amazon |
+| **Structural Consumables** (Nichrome wire, Kraft paper, M3 threaded rods, super glue, rubber bands) | $38.25 | Amazon |
+| **Parts Subtotal** | **$399.31** | |
+| **Shipping & Tax For me** | $47.48 | Amazon |
+| **Total** | **$446.79** | |
+
 
 Not in the BOM because I already have them: the Estes F15 motors, the LiPo charger, a USB power bank, a breadboard, LEDs and jumper wires.
 
