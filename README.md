@@ -57,8 +57,8 @@ Buttons use the ESP32's internal pull-ups (`INPUT_PULLUP`), so a pressed button 
 ## How the landing motor is throttled
 A solid rocket motor can't be throttled by itself, so it uses throttle arms to choke the motor, so it can revert the thrust up and slow down.
 
-**The hardware** ([CAD/Throttle_Arms.step](CAD/Throttle_Arms.step)):
-1. Two throttle arms laser-cut from 1.5 mm Steel 1008 (steel so the exhaust can't melt them). Each arm is a small lever plate bent 90° into a half-circle paddle.
+**The hardware** ([CAD/Throttle_Arms.step](CAD/Throttle_Arms.step), SendCutSend files in [Production/Laser_Cutting](Production/Laser_Cutting)):
+1. Two throttle arms laser-cut and bent by SendCutSend from 1.5 mm Steel 1008 (steel so the exhaust can't melt them). Each arm is a small lever plate bent 90° into a half-circle paddle.
 2. When both paddles are closed they make a 40 mm disc about 9 mm below the bottom of the motor tube, right under the exhaust.
 3. Each arm swings on its own pin (Pin5 / Pin6) in a hinge at the bottom of the TVC tube, about 20 mm from the centre.
 4. Each arm has its own servo, which pushes a spring-steel wire pushrod hooked into a 1.6 mm hole on the arm's lever.
