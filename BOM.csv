@@ -1,34 +1,34 @@
 Part,Type,Quantity,Unit price (USD),Line total (USD),Link,Vendor,Funding,Notes
-"AITRIP 2PCS ESP32 Dev Boards, 30-Pin, USB-C, ESP-WROOM-32 (CP2102)",Part,1,14.99,14.99,https://amazon.com,"ESP32 #1 = rocket flight computer, ESP32 #2 = breadboard launch controller"
-"2Pcs ESP32 30Pin Breakout Board GPIO 1 into Expansion Development Board Compatible with 30 Pins ESP32S ESP32 ESP-32 Board, 1-Pack",Part,1,5.99,5.99,https://amazon.com,"For the rocket ESP32 only."
-"ELEGOO PETG 3D Printer Filament 1.75mm Black 1KG",3D printed,1,12.99,12.99,https://amazon.com,
-"3D Printer Filament PLA Black 30-300mm/s for Bambu Lab 3D Printer AMS, AMS Lite",3D printed,1,9.99,9.99,https://amazon.com,
-"8A UBEC Output 5V / 6V 8A Max 12A Input 7V-25.5V 2-6S Lipo / 6-16 Cell NI-Mh Input Switch",Part,1,18.98,18.98,https://amazon.com,"Servo power, set to 5 V"
-"SPARKHOBBY ES3352 3352 2.8kg Metal Gear 9mm",Part,1,48.28,48.28,https://amazon.com,"4 servos: TVC pitch, TVC yaw, throttle left, throttle right"
-"50pcs Stainless Steel Spring Wire - 40CM (15.7"")",Part,1,9.99,9.99,https://amazon.com,"Servo pushrods"
-"3pcs GY-521 MPU 6050",Part,1,14.99,14.99,https://amazon.com,
-"Gebildet 3V-6V-12V-24V-230V/1A 10pcs 7mm Black Prewired Mini Momentary Push Button",Part,1,6.99,6.99,https://amazon.com,
-"OVONIC 7.4V Lipo 2200 mAh 50C 2S Lipo Battery with XT60+TRA Plug (2 Packs)",Part,1,29.99,29.99,https://amazon.com,
-"30 PCS Lever Wire Electrical Connectors Nuts Assortment Kit with 28-12 AWG",Part,1,7.99,7.99,https://amazon.com,"Generic lever nuts instead of genuine WAGO 221 ($20.90). Used as BAT+, SERVO +5 V, PYRO+ and GND junctions"
+"AITRIP 2PCS ESP32 Dev Boards 30-Pin USB-C ESP-WROOM-32 (CP2102)",Part,1,14.99,14.99,https://amazon.com,"ESP32 #1 = rocket flight computer; ESP32 #2 = breadboard launch controller"
+"2Pcs ESP32 30Pin Breakout Board GPIO 1 into Expansion Development Board",Part,1,5.99,5.99,https://amazon.com,"For the rocket ESP32 only"
+"ELEGOO PETG 3D Printer Filament 1.75mm Black 1KG",3D printed,1,12.99,12.99,https://amazon.com,""
+"3D Printer Filament PLA Black 30-300mm/s for Bambu Lab 3D Printer",3D printed,1,9.99,9.99,https://amazon.com,""
+"8A UBEC Output 5V / 6V 8A Max 12A Input 7V-25.5V 2-6S Lipo",Part,1,18.98,18.98,https://amazon.com,"Servo power set to 5V"
+"SPARKHOBBY ES3352 3352 2.8kg Metal Gear 9mm",Part,1,48.28,48.28,https://amazon.com,"4 servos: TVC pitch TVC yaw throttle left throttle right"
+"50pcs Stainless Steel Spring Wire - 40CM (15.7 inch)",Part,1,9.99,9.99,https://amazon.com,"Servo pushrods"
+"3pcs GY-521 MPU 6050",Part,1,14.99,14.99,https://amazon.com,""
+"Gebildet 3V-6V-12V-24V-230V/1A 10pcs 7mm Black Prewired Mini Momentary Push Button",Part,1,6.99,6.99,https://amazon.com,""
+"OVONIC 7.4V Lipo 2200 mAh 50C 2S Lipo Battery with XT60+TRA Plug (2 Packs)",Part,1,29.99,29.99,https://amazon.com,""
+"30 PCS Lever Wire Electrical Connectors Nuts Assortment Kit with 28-12 AWG",Part,1,7.99,7.99,https://amazon.com,"Generic lever nuts instead of genuine WAGO 221 ($20.90) for BAT+ SERVO +5V PYRO+ and GND"
 "DaierTek Mini ON and Off Rocker Switch",Part,1,7.99,7.99,https://amazon.com,"SW1 main power + SW2 pyro arm"
-"Cable Zip Ties, 400 Pack Black Assorted Sizes",Part,1,6.99,6.99,https://amazon.com,
-"40pcs 20 cm (8 inch) Female to Female Jumper Wires",Part,1,3.99,3.99,https://amazon.com,
+"Cable Zip Ties 400 Pack Black Assorted Sizes",Part,1,6.99,6.99,https://amazon.com,""
+"40pcs 20 cm (8 inch) Female to Female Jumper Wires",Part,1,3.99,3.99,https://amazon.com,""
 "15 Pcs 5W 1% Tolerance 1 Ohm Metal Film Resistor",Part,1,6.49,6.49,https://amazon.com,"Current limit in series with each igniter"
-"LuminologyPro 1000-Piece Resistor Kit, 25 Values, 1/4W 1% Metal Film",Part,1,6.49,6.49,https://amazon.com,"Uses 220 ohm (LEDs), 33k + 100k (continuity / battery voltage dividers)"
-"4 Pack 16AWG Waterproof Inline Fuse Holder",Part,1,7.99,7.99,https://amazon.com,"F1 10 A main, F2 5 A pyro"
-"MOSFET Module MOSFET Switch 4 Channel Drive",Part,1,7.59,7.59,https://amazon.com,"Pyro channels: ascent motor, landing motor, leg nichrome"
-"SHILLEHTEK PRE-SOLDERED BMP280 3.3V",Part,1,7.49,7.49,https://amazon.com,
-"Tenergy Lipo Bag, Fire Retardant Lipo Battery Bag",Part,1,8.99,8.99,https://amazon.com,
-"EEEEE M3 Black Nylon Standoff Screws",Part,1,9.99,9.99,https://amazon.com,
-"FainWan RC Products 3amp - 6.0-25.2v Input / 5v/6v Adjustable Output BEC",Part,1,13.99,13.99,https://amazon.com,"ESP32 logic power, set to 5 V"
-"3 Pairs XT60 Plug Female and Male Connector with 12AWG Silicon Wire",Part,1,8.99,8.99,https://amazon.com,
-"22awg Silicone Electrical Wire Kit Cable 2 Colors 26ft Each Spool",Part,1,8.58,8.58,https://amazon.com,
-"Nichrome 80-250' - 32 Gauge Wire - 250ft",Part,1,9.49,9.49,https://amazon.com,
-"Super Glue Gel Instant Adhesive, No-Drip, Clear, 12 x 2 g Tubes",Part,1,7.99,7.99,https://amazon.com,
-"PerkHomy Brown Kraft Paper Roll 17.5"" x 1,200"" (100')",Part,1,7.99,7.99,https://amazon.com,
-"Litoexpe 5 Pack M3 x 300mm Threaded Rod",Part,1,5.79,5.79,https://amazon.com,
-"UHT Carbon Fiber Rod 4x500mm Solid Round Bar for RC Craft Modeling Drone",Part,1,25.69,25.69,https://amazon.com,
-"Rubber Bands Size16 500pcs Small Rubber Band For Office Supplies",Part,1,6.99,6.99,https://amazon.com,
-"22pcs 3Pin Servo Extension Cable Cord Male to Female Wire Connectors",Part,1,9.99,9.99,https://amazon.com,
-"WG-026 10-Piece Test Lead Set with Alligator Clips, 22 AWG, 20.5-Inch",Part,1,5.99,5.99,https://amazon.com,
-"Throttle arms laser cut (Steel 1008, 1.5 mm)",Part,1,32.21,32.21,https://sendcutsend.com,SendCutSend.com,Grant,"CAD/Throttle_Arm_formed.step · Qty 2, mild steel .059"", one 90 deg bend. Flat DXF: CAD/Throttle_Arm_flat.dxf"
+"LuminologyPro 1000-Piece Resistor Kit 25 Values 1/4W 1% Metal Film",Part,1,6.49,6.49,https://amazon.com,"Uses 220 ohm (LEDs) and 33k + 100k (continuity / battery voltage dividers)"
+"4 Pack 16AWG Waterproof Inline Fuse Holder",Part,1,7.99,7.99,https://amazon.com,"F1 10A main and F2 5A pyro"
+"MOSFET Module MOSFET Switch 4 Channel Drive",Part,1,7.59,7.59,https://amazon.com,"Pyro channels: ascent motor landing motor leg nichrome"
+"SHILLEHTEK PRE-SOLDERED BMP280 3.3V",Part,1,7.49,7.49,https://amazon.com,""
+"Tenergy Lipo Bag Fire Retardant Lipo Battery Bag",Part,1,8.99,8.99,https://amazon.com,""
+"EEEEE M3 Black Nylon Standoff Screws",Part,1,9.99,9.99,https://amazon.com,""
+"FainWan RC Products 3amp - 6.0-25.2v Input / 5v/6v Adjustable Output BEC",Part,1,13.99,13.99,https://amazon.com,"ESP32 logic power set to 5V"
+"3 Pairs XT60 Plug Female and Male Connector with 12AWG Silicon Wire",Part,1,8.99,8.99,https://amazon.com,""
+"22awg Silicone Electrical Wire Kit Cable 2 Colors 26ft Each Spool",Part,1,8.58,8.58,https://amazon.com,""
+"Nichrome 80-250ft - 32 Gauge Wire - 250ft",Part,1,9.49,9.49,https://amazon.com,""
+"Super Glue Gel Instant Adhesive No-Drip Clear 12 x 2g Tubes",Part,1,7.99,7.99,https://amazon.com,""
+"PerkHomy Brown Kraft Paper Roll 17.5in x 1200in (100ft)",Part,1,7.99,7.99,https://amazon.com,""
+"Litoexpe 5 Pack M3 x 300mm Threaded Rod",Part,1,5.79,5.79,https://amazon.com,""
+"UHT Carbon Fiber Rod 4x500mm Solid Round Bar for RC Craft Modeling Drone",Part,1,25.69,25.69,https://amazon.com,""
+"Rubber Bands Size16 500pcs Small Rubber Band For Office Supplies",Part,1,6.99,6.99,https://amazon.com,""
+"22pcs 3Pin Servo Extension Cable Cord Male to Female Wire Connectors",Part,1,9.99,9.99,https://amazon.com,""
+"WG-026 10-Piece Test Lead Set with Alligator Clips 22 AWG 20.5-Inch",Part,1,5.99,5.99,https://amazon.com,""
+"Throttle arms laser cut (Steel 1008 1.5 mm)",Part,1,32.21,32.21,https://sendcutsend.com,SendCutSend.com,Grant,"CAD/Throttle_Arm_formed.step - Qty 2 mild steel 0.059 in one 90 deg bend. Flat DXF: CAD/Throttle_Arm_flat.dxf"
