@@ -27,14 +27,12 @@ Here is a shorter BOM list, you can also check out the full one in [BOM.csv](BOM
 | :--- | :--- | :--- |
 | **SPARKHOBBY ES3352 Servos** (×4: TVC pitch, TVC yaw, 2× throttle) | $48.28 | Amazon |
 | **Custom Laser Cut Throttle Arms** (Steel 1008, 1.5 mm) | $32.66 | SendCutSend |
-| **OVONIC 7.4V 2S 2200mAh LiPo Batteries** (2-pack) | $29.99 | Amazon |
+| **HOOVO 7.4V 2S 2200mAh Shorty LiPo Batteries** (2-pack) | $34.43 | Amazon |
 | **UHT Carbon Fiber Rods** (4×500 mm) | $25.69 | Amazon |
-| **Avionics & Electronics** (ESP32 2-pack, breakout board, MPU6050, BMP280, MOSFET module, 8A UBEC + 3A BEC) | $84.02 | Amazon |
-| **Hardware & Miscellaneous** (PETG & PLA filament, lever connectors, wires, pushrods, fuses, switches, buttons, resistors, standoffs, LiPo bag, zip ties) | $140.42 | Amazon |
-| **Structural Consumables** (Nichrome wire, Kraft paper, M3 threaded rods, super glue, rubber bands) | $38.25 | Amazon |
-| **Parts Subtotal** | **$399.31** | |
-| **Shipping & Tax For me** | $47.48 | Amazon |
-| **Total** | **$446.79** | |
+| **Avionics & Electronics** (ESP32 2-pack, breakout board, MPU6050, BMP280, MOSFET module, 8A UBEC + 3A BEC) | $83.82 | Amazon |
+| **Hardware & Miscellaneous** (PETG & PLA filament, lever connectors, wires, XT60 connectors, servo extensions, pushrods, fuses, switches, buttons, resistors, standoffs, LiPo bag, zip ties) | $140.52 | Amazon |
+| **Structural Consumables** (Nichrome wire, Kraft paper, M3 threaded rods, super glue, rubber bands) | $37.45 | Amazon |
+| **Subtotal** | **$402.85** | |
 
 
 Not in the BOM because I already have them: the Estes F15 motors, the LiPo charger, a USB power bank, a breadboard, LEDs and jumper wires.
@@ -43,7 +41,7 @@ Not in the BOM because I already have them: the Estes F15 motors, the LiPo charg
 Everything is hand-wired (no PCB). 
 
 ### ESP32 #1: flight computer (inside the rocket)
-![Rocket wiring diagram](docs/wiring_rocket.svg)
+![Rocket wiring diagram](docs/wiring_rocket.png)
 
 *How the ESP32 ignites a motor:* each igniter (the Estes starter pushed into the motor nozzle) is wired from PYRO+ through a 1 Ω 5 W resistor to one MOSFET output. When the ESP32 sets the pyro pin HIGH (3.3 V), the MOSFET connects the igniter to ground and about 4–5 A flows from the battery through the igniter. Its bridge wire glows, lights the igniter's tip, and that lights the motor. Software holds the pin HIGH for about 1 s, then sets it LOW. This can only happen when **both** SW2 ARM is on (hardware arm) **and** the launch controller has armed the software (software arm). The leg-release nichrome works the same way, but it burns through the rubber band instead.
 
@@ -52,7 +50,7 @@ Everything is hand-wired (no PCB).
 The pyro pins (18, 19, 23) were picked because they stay LOW while the ESP32 boots. GPIO 0, 2, 5, 12 and 15 can twitch at power-on, so they never drive anything pyro. The analog pins are all on ADC1, because ADC2 stops working while ESP-NOW/Wi-Fi is running.
 
 ### ESP32 #2: launch controller (on a breadboard)
-![Launch controller wiring diagram](docs/wiring_launch_controller.svg)
+![Launch controller wiring diagram](docs/wiring_launch_controller.png)
 
 A USB power bank plugs straight into the ESP32's USB port, so no extra regulator is needed. It talks to the rocket with ESP-NOW (direct ESP32-to-ESP32 radio, no Wi-Fi router).
 
